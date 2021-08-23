@@ -1,3 +1,7 @@
+h1{
+    text-align:center;
+    color:orange;
+}
 .container{
     height:100vh;
     display:flex;
@@ -8,6 +12,8 @@
 }
 .calculater{
     display:grid;
+    border:5px blue solid;
+    padding: 25px;
     border-radius:30px;
     box-shadow: inset -5px -5px 12px #ffffff,
                 inset 5px 5px 12px rgba(0,0,0,.16);
@@ -15,20 +21,21 @@
 }
 input{
     grid-column:4 span ;
-    color: white;
+    color:rgb(80, 12, 238);
     text-align: end;
     font-size: 60px;
     padding:10px;
     height: 60px;
-    width:240px;
+    width:260px;
     border-radius:50px;
     margin:auto;
-    background-color:rgb(255, 0, 200);
+    background-color:orange;
     
 }
 button{
     padding: 20px;
     color:blue;
+    background:rgb(172, 194, 75);
     font-size:25px;
     margin: 2px;
     border:none;
